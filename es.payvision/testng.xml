@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="REST API payvision challenge report">
+
+	<test name="authentication unsuccessful">
+		<classes>
+			<class name="es.payvision.tests.TestAuthorizationRequestUnsuccessful" />
+		</classes>
+	</test>
+
+	<test name="authentication successful">  
+		<classes>
+			<class name="es.payvision.tests.TestAuthorizationRequestSuccessful" />
+		</classes>
+	</test>
+	
+	<test name="filter credit">  
+		<classes>
+			<class name="es.payvision.tests.TestFilterCreditAction" />
+		</classes>
+	</test>
+	
+	<test name="filter payment">  
+		<classes>
+			<class name="es.payvision.tests.TestFilterPaymentAction" />
+		</classes>
+	</test>
+
+	<test name="filter currency Code">  
+		<classes>
+			<class name="es.payvision.tests.TestCurrencyCode" />
+		</classes>
+	</test>
+		<test name="filter Action and Currency">  
+		<classes>
+			<class name="es.payvision.tests.TestFilterActionAndCurrency" />
+		</classes>
+	</test>
+		<test name="filter Order by">  
+		<classes>
+			<class name="es.payvision.tests.TestFilterOrderBy" />
+		</classes>
+	</test>
+</suite>

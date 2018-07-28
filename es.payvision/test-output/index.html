@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-REST_API_payvision_challenge_report">
+              <span class="suite-name border-failed">REST API payvision challenge report</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-REST_API_payvision_challenge_report">
+                    <span>C:\Users\ahern\Documents\TestApiMvn\es.payvision\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-REST_API_payvision_challenge_report">
+                    <span class="test-stats">7 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-REST_API_payvision_challenge_report">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-REST_API_payvision_challenge_report">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-REST_API_payvision_challenge_report">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-REST_API_payvision_challenge_report">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-REST_API_payvision_challenge_report">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">24 methods, 1 failed,   23 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-REST_API_payvision_challenge_report" class="hide-methods failed suite-REST_API_payvision_challenge_report"> (hide)</a> <!-- hide-methods failed suite-REST_API_payvision_challenge_report -->
+                      <a href="#" panel-name="suite-REST_API_payvision_challenge_report" class="show-methods failed suite-REST_API_payvision_challenge_report"> (show)</a> <!-- show-methods failed suite-REST_API_payvision_challenge_report -->
+                    </span>
+                    <div class="method-list-content failed suite-REST_API_payvision_challenge_report">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-REST_API_payvision_challenge_report" title="es.payvision.tests.TestFilterOrderBy" hash-for-method="TestFilterOrderByDateComparedById">TestFilterOrderByDateComparedById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-REST_API_payvision_challenge_report -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-REST_API_payvision_challenge_report" class="hide-methods passed suite-REST_API_payvision_challenge_report"> (hide)</a> <!-- hide-methods passed suite-REST_API_payvision_challenge_report -->
+                      <a href="#" panel-name="suite-REST_API_payvision_challenge_report" class="show-methods passed suite-REST_API_payvision_challenge_report"> (show)</a> <!-- show-methods passed suite-REST_API_payvision_challenge_report -->
+                    </span>
+                    <div class="method-list-content passed suite-REST_API_payvision_challenge_report">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-REST_API_payvision_challenge_report" title="es.payvision.tests.TestCurrencyCode" hash-for-method="TestCurrencyCodeById">TestCurrencyCodeById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-REST_API_payvision_challenge_report" title="es.payvision.tests.TestCurrencyCode" hash-for-method="TestCurrencyCodeByWrongId">TestCurrencyCodeByWrongId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-REST_API_payvision_challenge_report" title="es.payvision.tests.TestCurrencyCode" hash-for-method="TestCurrencyCodeSuccessfull">TestCurrencyCodeSuccessfull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-REST_API_payvision_challenge_report" title="es.payvision.tests.TestCurrencyCode" hash-for-method="TestCurrencyCodeUnsuccessfull">TestCurrencyCodeUnsuccessfull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-REST_API_payvision_challenge_report" title="es.payvision.tests.TestFilterActionAndCurrency" hash-for-method="TestFilterActionAndCurrencyById">TestFilterActionAndCurrencyById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-REST_API_payvision_challenge_report" title="es.payvision.tests.TestFilterActionAndCurrency" hash-for-method="TestFilterActionAndCurrencyByWrongId">TestFilterActionAndCurrencyByWrongId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-REST_API_payvision_challenge_report" title="es.payvision.tests.TestFilterActionAndCurrency" hash-for-method="TestFilterActionAndCurrencySuccessfull">TestFilterActionAndCurrencySuccessfull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-REST_API_payvision_challenge_report" title="es.payvision.tests.TestFilterActionAndCurrency" hash-for-method="TestFilterActionAndCurrencyUnsuccessfull">TestFilterActionAndCurrencyUnsuccessfull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-REST_API_payvision_challenge_report" title="es.payvision.tests.TestFilterCreditAction" hash-for-method="TestFilterCreditById">TestFilterCreditById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-REST_API_payvision_challenge_report" title="es.payvision.tests.TestFilterCreditAction" hash-for-method="TestFilterCreditByWrongId">TestFilterCreditByWrongId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-REST_API_payvision_challenge_report" title="es.payvision.tests.TestFilterCreditAction" hash-for-method="TestFilterCreditSuccessfull">TestFilterCreditSuccessfull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-REST_API_payvision_challenge_report" title="es.payvision.tests.TestFilterCreditAction" hash-for-method="TestFilterCreditUnsuccessfull">TestFilterCreditUnsuccessfull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-REST_API_payvision_challenge_report" title="es.payvision.tests.TestFilterOrderBy" hash-for-method="TestFilterOrderByCompararion">TestFilterOrderByCompararion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-REST_API_payvision_challenge_report" title="es.payvision.tests.TestFilterOrderBy" hash-for-method="TestFilterOrderBySuccessfull">TestFilterOrderBySuccessfull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-REST_API_payvision_challenge_report" title="es.payvision.tests.TestFilterOrderBy" hash-for-method="TestFilterOrderByUnsuccessfull">TestFilterOrderByUnsuccessfull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-REST_API_payvision_challenge_report" title="es.payvision.tests.TestFilterPaymentAction" hash-for-method="TestFilterPaymentById">TestFilterPaymentById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-REST_API_payvision_challenge_report" title="es.payvision.tests.TestFilterPaymentAction" hash-for-method="TestFilterPaymentByWrongId">TestFilterPaymentByWrongId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-REST_API_payvision_challenge_report" title="es.payvision.tests.TestFilterPaymentAction" hash-for-method="TestFilterPaymentSuccessfull">TestFilterPaymentSuccessfull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-REST_API_payvision_challenge_report" title="es.payvision.tests.TestFilterPaymentAction" hash-for-method="TestFilterPaymentUnsuccessfull">TestFilterPaymentUnsuccessfull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-REST_API_payvision_challenge_report" title="es.payvision.tests.TestAuthorizationRequestSuccessful" hash-for-method="TestGetBasicAuthValidUserPassword">TestGetBasicAuthValidUserPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-REST_API_payvision_challenge_report" title="es.payvision.tests.TestAuthorizationRequestUnsuccessful" hash-for-method="TestGetBasicAuthWrongPass">TestGetBasicAuthWrongPass</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-REST_API_payvision_challenge_report" title="es.payvision.tests.TestAuthorizationRequestUnsuccessful" hash-for-method="TestGetBasicAuthWrongUser">TestGetBasicAuthWrongUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-REST_API_payvision_challenge_report" title="es.payvision.tests.TestAuthorizationRequestUnsuccessful" hash-for-method="TestGetNoAuth">TestGetNoAuth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-REST_API_payvision_challenge_report -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-REST_API_payvision_challenge_report" class="panel REST_API_payvision_challenge_report">
+          <div class="suite-REST_API_payvision_challenge_report-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">es.payvision.tests.TestFilterOrderBy</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFilterOrderByDateComparedById">
+                  </a> <!-- TestFilterOrderByDateComparedById -->
+                  <span class="method-name">TestFilterOrderByDateComparedById</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at es.payvision.tests.TestFilterOrderBy.TestFilterOrderByDateComparedById(TestFilterOrderBy.java:104)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-REST_API_payvision_challenge_report-class-failed -->
+          <div class="suite-REST_API_payvision_challenge_report-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">es.payvision.tests.TestFilterCreditAction</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFilterCreditById">
+                  </a> <!-- TestFilterCreditById -->
+                  <span class="method-name">TestFilterCreditById</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFilterCreditByWrongId">
+                  </a> <!-- TestFilterCreditByWrongId -->
+                  <span class="method-name">TestFilterCreditByWrongId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFilterCreditSuccessfull">
+                  </a> <!-- TestFilterCreditSuccessfull -->
+                  <span class="method-name">TestFilterCreditSuccessfull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFilterCreditUnsuccessfull">
+                  </a> <!-- TestFilterCreditUnsuccessfull -->
+                  <span class="method-name">TestFilterCreditUnsuccessfull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-REST_API_payvision_challenge_report-class-passed -->
+          <div class="suite-REST_API_payvision_challenge_report-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">es.payvision.tests.TestFilterPaymentAction</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFilterPaymentById">
+                  </a> <!-- TestFilterPaymentById -->
+                  <span class="method-name">TestFilterPaymentById</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFilterPaymentByWrongId">
+                  </a> <!-- TestFilterPaymentByWrongId -->
+                  <span class="method-name">TestFilterPaymentByWrongId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFilterPaymentSuccessfull">
+                  </a> <!-- TestFilterPaymentSuccessfull -->
+                  <span class="method-name">TestFilterPaymentSuccessfull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFilterPaymentUnsuccessfull">
+                  </a> <!-- TestFilterPaymentUnsuccessfull -->
+                  <span class="method-name">TestFilterPaymentUnsuccessfull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-REST_API_payvision_challenge_report-class-passed -->
+          <div class="suite-REST_API_payvision_challenge_report-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">es.payvision.tests.TestAuthorizationRequestSuccessful</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestGetBasicAuthValidUserPassword">
+                  </a> <!-- TestGetBasicAuthValidUserPassword -->
+                  <span class="method-name">TestGetBasicAuthValidUserPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-REST_API_payvision_challenge_report-class-passed -->
+          <div class="suite-REST_API_payvision_challenge_report-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">es.payvision.tests.TestCurrencyCode</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCurrencyCodeById">
+                  </a> <!-- TestCurrencyCodeById -->
+                  <span class="method-name">TestCurrencyCodeById</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCurrencyCodeByWrongId">
+                  </a> <!-- TestCurrencyCodeByWrongId -->
+                  <span class="method-name">TestCurrencyCodeByWrongId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCurrencyCodeSuccessfull">
+                  </a> <!-- TestCurrencyCodeSuccessfull -->
+                  <span class="method-name">TestCurrencyCodeSuccessfull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCurrencyCodeUnsuccessfull">
+                  </a> <!-- TestCurrencyCodeUnsuccessfull -->
+                  <span class="method-name">TestCurrencyCodeUnsuccessfull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-REST_API_payvision_challenge_report-class-passed -->
+          <div class="suite-REST_API_payvision_challenge_report-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">es.payvision.tests.TestFilterActionAndCurrency</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFilterActionAndCurrencyById">
+                  </a> <!-- TestFilterActionAndCurrencyById -->
+                  <span class="method-name">TestFilterActionAndCurrencyById</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFilterActionAndCurrencyByWrongId">
+                  </a> <!-- TestFilterActionAndCurrencyByWrongId -->
+                  <span class="method-name">TestFilterActionAndCurrencyByWrongId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFilterActionAndCurrencySuccessfull">
+                  </a> <!-- TestFilterActionAndCurrencySuccessfull -->
+                  <span class="method-name">TestFilterActionAndCurrencySuccessfull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFilterActionAndCurrencyUnsuccessfull">
+                  </a> <!-- TestFilterActionAndCurrencyUnsuccessfull -->
+                  <span class="method-name">TestFilterActionAndCurrencyUnsuccessfull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-REST_API_payvision_challenge_report-class-passed -->
+          <div class="suite-REST_API_payvision_challenge_report-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">es.payvision.tests.TestFilterOrderBy</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFilterOrderByCompararion">
+                  </a> <!-- TestFilterOrderByCompararion -->
+                  <span class="method-name">TestFilterOrderByCompararion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFilterOrderBySuccessfull">
+                  </a> <!-- TestFilterOrderBySuccessfull -->
+                  <span class="method-name">TestFilterOrderBySuccessfull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFilterOrderByUnsuccessfull">
+                  </a> <!-- TestFilterOrderByUnsuccessfull -->
+                  <span class="method-name">TestFilterOrderByUnsuccessfull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-REST_API_payvision_challenge_report-class-passed -->
+          <div class="suite-REST_API_payvision_challenge_report-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">es.payvision.tests.TestAuthorizationRequestUnsuccessful</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestGetBasicAuthWrongPass">
+                  </a> <!-- TestGetBasicAuthWrongPass -->
+                  <span class="method-name">TestGetBasicAuthWrongPass</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestGetBasicAuthWrongUser">
+                  </a> <!-- TestGetBasicAuthWrongUser -->
+                  <span class="method-name">TestGetBasicAuthWrongUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestGetNoAuth">
+                  </a> <!-- TestGetNoAuth -->
+                  <span class="method-name">TestGetNoAuth</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-REST_API_payvision_challenge_report-class-passed -->
+        </div> <!-- panel REST_API_payvision_challenge_report -->
+        <div panel-name="test-xml-REST_API_payvision_challenge_report" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\ahern\Documents\TestApiMvn\es.payvision\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;REST API payvision challenge report&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;authentication unsuccessful&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;es.payvision.tests.TestAuthorizationRequestUnsuccessful&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- authentication unsuccessful --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;authentication successful&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;es.payvision.tests.TestAuthorizationRequestSuccessful&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- authentication successful --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;filter credit&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;es.payvision.tests.TestFilterCreditAction&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- filter credit --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;filter payment&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;es.payvision.tests.TestFilterPaymentAction&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- filter payment --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;filter currency Code&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;es.payvision.tests.TestCurrencyCode&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- filter currency Code --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;filter Action and Currency&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;es.payvision.tests.TestFilterActionAndCurrency&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- filter Action and Currency --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;filter Order by&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;es.payvision.tests.TestFilterOrderBy&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- filter Order by --&gt;
+&lt;/suite&gt; &lt;!-- REST API payvision challenge report --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-REST_API_payvision_challenge_report" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for REST API payvision challenge report</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">authentication unsuccessful (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">authentication successful (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">filter credit (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">filter payment (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">filter currency Code (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">filter Action and Currency (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">filter Order by (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-REST_API_payvision_challenge_report" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for REST API payvision challenge report</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-REST_API_payvision_challenge_report" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for REST API payvision challenge report</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_REST_API_payvision_challenge_report');
+function tableData_REST_API_payvision_challenge_report() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(24);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TestGetBasicAuthWrongPass')
+data.setCell(0, 2, 'es.payvision.tests.TestAuthorizationRequestUnsuccessful')
+data.setCell(0, 3, 1424);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TestFilterCreditById')
+data.setCell(1, 2, 'es.payvision.tests.TestFilterCreditAction')
+data.setCell(1, 3, 492);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TestFilterOrderByDateComparedById')
+data.setCell(2, 2, 'es.payvision.tests.TestFilterOrderBy')
+data.setCell(2, 3, 275);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TestFilterOrderByCompararion')
+data.setCell(3, 2, 'es.payvision.tests.TestFilterOrderBy')
+data.setCell(3, 3, 272);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TestCurrencyCodeById')
+data.setCell(4, 2, 'es.payvision.tests.TestCurrencyCode')
+data.setCell(4, 3, 175);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TestGetNoAuth')
+data.setCell(5, 2, 'es.payvision.tests.TestAuthorizationRequestUnsuccessful')
+data.setCell(5, 3, 165);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TestGetBasicAuthValidUserPassword')
+data.setCell(6, 2, 'es.payvision.tests.TestAuthorizationRequestSuccessful')
+data.setCell(6, 3, 160);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TestFilterPaymentById')
+data.setCell(7, 2, 'es.payvision.tests.TestFilterPaymentAction')
+data.setCell(7, 3, 158);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TestFilterCreditSuccessfull')
+data.setCell(8, 2, 'es.payvision.tests.TestFilterCreditAction')
+data.setCell(8, 3, 155);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TestFilterActionAndCurrencyById')
+data.setCell(9, 2, 'es.payvision.tests.TestFilterActionAndCurrency')
+data.setCell(9, 3, 153);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TestCurrencyCodeUnsuccessfull')
+data.setCell(10, 2, 'es.payvision.tests.TestCurrencyCode')
+data.setCell(10, 3, 152);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TestCurrencyCodeByWrongId')
+data.setCell(11, 2, 'es.payvision.tests.TestCurrencyCode')
+data.setCell(11, 3, 148);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'TestFilterCreditByWrongId')
+data.setCell(12, 2, 'es.payvision.tests.TestFilterCreditAction')
+data.setCell(12, 3, 145);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'TestFilterPaymentSuccessfull')
+data.setCell(13, 2, 'es.payvision.tests.TestFilterPaymentAction')
+data.setCell(13, 3, 143);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'TestFilterPaymentByWrongId')
+data.setCell(14, 2, 'es.payvision.tests.TestFilterPaymentAction')
+data.setCell(14, 3, 140);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'TestFilterCreditUnsuccessfull')
+data.setCell(15, 2, 'es.payvision.tests.TestFilterCreditAction')
+data.setCell(15, 3, 139);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'TestFilterActionAndCurrencyByWrongId')
+data.setCell(16, 2, 'es.payvision.tests.TestFilterActionAndCurrency')
+data.setCell(16, 3, 139);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'TestGetBasicAuthWrongUser')
+data.setCell(17, 2, 'es.payvision.tests.TestAuthorizationRequestUnsuccessful')
+data.setCell(17, 3, 138);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'TestFilterPaymentUnsuccessfull')
+data.setCell(18, 2, 'es.payvision.tests.TestFilterPaymentAction')
+data.setCell(18, 3, 136);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'TestCurrencyCodeSuccessfull')
+data.setCell(19, 2, 'es.payvision.tests.TestCurrencyCode')
+data.setCell(19, 3, 133);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'TestFilterActionAndCurrencyUnsuccessfull')
+data.setCell(20, 2, 'es.payvision.tests.TestFilterActionAndCurrency')
+data.setCell(20, 3, 130);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'TestFilterActionAndCurrencySuccessfull')
+data.setCell(21, 2, 'es.payvision.tests.TestFilterActionAndCurrency')
+data.setCell(21, 3, 127);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'TestFilterOrderBySuccessfull')
+data.setCell(22, 2, 'es.payvision.tests.TestFilterOrderBy')
+data.setCell(22, 3, 127);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'TestFilterOrderByUnsuccessfull')
+data.setCell(23, 2, 'es.payvision.tests.TestFilterOrderBy')
+data.setCell(23, 3, 122);
+window.suiteTableData['REST_API_payvision_challenge_report']= { tableData: data, tableDiv: 'times-div-REST_API_payvision_challenge_report'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <div id="times-div-REST_API_payvision_challenge_report">
+              </div> <!-- times-div-REST_API_payvision_challenge_report -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-REST_API_payvision_challenge_report" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for REST API payvision challenge report</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-REST_API_payvision_challenge_report" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-REST_API_payvision_challenge_report" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">es.payvision.tests.TestAuthorizationRequestUnsuccessful</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TestGetBasicAuthWrongPass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestGetBasicAuthWrongUser</span>
+                <span class="method-start">1427 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestGetNoAuth</span>
+                <span class="method-start">1565 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">es.payvision.tests.TestAuthorizationRequestSuccessful</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TestGetBasicAuthValidUserPassword</span>
+                <span class="method-start">1829 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">es.payvision.tests.TestFilterCreditAction</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TestFilterCreditById</span>
+                <span class="method-start">2030 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFilterCreditByWrongId</span>
+                <span class="method-start">2523 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFilterCreditSuccessfull</span>
+                <span class="method-start">2669 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFilterCreditUnsuccessfull</span>
+                <span class="method-start">2826 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">es.payvision.tests.TestFilterPaymentAction</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TestFilterPaymentById</span>
+                <span class="method-start">3001 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFilterPaymentByWrongId</span>
+                <span class="method-start">3159 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFilterPaymentSuccessfull</span>
+                <span class="method-start">3300 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFilterPaymentUnsuccessfull</span>
+                <span class="method-start">3444 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">es.payvision.tests.TestCurrencyCode</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TestCurrencyCodeById</span>
+                <span class="method-start">3617 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCurrencyCodeByWrongId</span>
+                <span class="method-start">3793 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCurrencyCodeSuccessfull</span>
+                <span class="method-start">3943 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCurrencyCodeUnsuccessfull</span>
+                <span class="method-start">4077 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">es.payvision.tests.TestFilterActionAndCurrency</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TestFilterActionAndCurrencyById</span>
+                <span class="method-start">4270 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFilterActionAndCurrencyByWrongId</span>
+                <span class="method-start">4424 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFilterActionAndCurrencySuccessfull</span>
+                <span class="method-start">4564 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFilterActionAndCurrencyUnsuccessfull</span>
+                <span class="method-start">4692 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">es.payvision.tests.TestFilterOrderBy</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TestFilterOrderByCompararion</span>
+                <span class="method-start">4854 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TestFilterOrderByDateComparedById</span>
+                <span class="method-start">5127 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFilterOrderBySuccessfull</span>
+                <span class="method-start">5404 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFilterOrderByUnsuccessfull</span>
+                <span class="method-start">5532 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="24" passed="23">
+  <reporter-output>
+  </reporter-output>
+  <suite name="REST API payvision challenge report" duration-ms="5677" started-at="2018-07-27T18:41:40Z" finished-at="2018-07-27T18:41:46Z">
+    <groups>
+    </groups>
+    <test name="authentication unsuccessful" duration-ms="1753" started-at="2018-07-27T18:41:40Z" finished-at="2018-07-27T18:41:42Z">
+      <class name="es.payvision.tests.TestAuthorizationRequestUnsuccessful">
+        <test-method status="PASS" signature="TestGetBasicAuthWrongPass()[pri:0, instance:es.payvision.tests.TestAuthorizationRequestUnsuccessful@604ed9f0]" name="TestGetBasicAuthWrongPass" duration-ms="1424" started-at="2018-07-27T18:41:40Z" finished-at="2018-07-27T18:41:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestGetBasicAuthWrongPass -->
+        <test-method status="PASS" signature="TestGetBasicAuthWrongUser()[pri:0, instance:es.payvision.tests.TestAuthorizationRequestUnsuccessful@604ed9f0]" name="TestGetBasicAuthWrongUser" duration-ms="138" started-at="2018-07-27T18:41:42Z" finished-at="2018-07-27T18:41:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestGetBasicAuthWrongUser -->
+        <test-method status="PASS" signature="TestGetNoAuth()[pri:0, instance:es.payvision.tests.TestAuthorizationRequestUnsuccessful@604ed9f0]" name="TestGetNoAuth" duration-ms="165" started-at="2018-07-27T18:41:42Z" finished-at="2018-07-27T18:41:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestGetNoAuth -->
+      </class> <!-- es.payvision.tests.TestAuthorizationRequestUnsuccessful -->
+    </test> <!-- authentication unsuccessful -->
+    <test name="authentication successful" duration-ms="162" started-at="2018-07-27T18:41:42Z" finished-at="2018-07-27T18:41:42Z">
+      <class name="es.payvision.tests.TestAuthorizationRequestSuccessful">
+        <test-method status="PASS" signature="TestGetBasicAuthValidUserPassword()[pri:0, instance:es.payvision.tests.TestAuthorizationRequestSuccessful@59ec2012]" name="TestGetBasicAuthValidUserPassword" duration-ms="160" started-at="2018-07-27T18:41:42Z" finished-at="2018-07-27T18:41:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestGetBasicAuthValidUserPassword -->
+      </class> <!-- es.payvision.tests.TestAuthorizationRequestSuccessful -->
+    </test> <!-- authentication successful -->
+    <test name="filter credit" duration-ms="944" started-at="2018-07-27T18:41:42Z" finished-at="2018-07-27T18:41:43Z">
+      <class name="es.payvision.tests.TestFilterCreditAction">
+        <test-method status="PASS" signature="TestFilterCreditById()[pri:0, instance:es.payvision.tests.TestFilterCreditAction@5bcab519]" name="TestFilterCreditById" duration-ms="492" started-at="2018-07-27T18:41:42Z" finished-at="2018-07-27T18:41:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFilterCreditById -->
+        <test-method status="PASS" signature="TestFilterCreditByWrongId()[pri:0, instance:es.payvision.tests.TestFilterCreditAction@5bcab519]" name="TestFilterCreditByWrongId" duration-ms="145" started-at="2018-07-27T18:41:43Z" finished-at="2018-07-27T18:41:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFilterCreditByWrongId -->
+        <test-method status="PASS" signature="TestFilterCreditSuccessfull()[pri:0, instance:es.payvision.tests.TestFilterCreditAction@5bcab519]" name="TestFilterCreditSuccessfull" duration-ms="155" started-at="2018-07-27T18:41:43Z" finished-at="2018-07-27T18:41:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFilterCreditSuccessfull -->
+        <test-method status="PASS" signature="TestFilterCreditUnsuccessfull()[pri:0, instance:es.payvision.tests.TestFilterCreditAction@5bcab519]" name="TestFilterCreditUnsuccessfull" duration-ms="139" started-at="2018-07-27T18:41:43Z" finished-at="2018-07-27T18:41:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFilterCreditUnsuccessfull -->
+      </class> <!-- es.payvision.tests.TestFilterCreditAction -->
+    </test> <!-- filter credit -->
+    <test name="filter payment" duration-ms="581" started-at="2018-07-27T18:41:43Z" finished-at="2018-07-27T18:41:44Z">
+      <class name="es.payvision.tests.TestFilterPaymentAction">
+        <test-method status="PASS" signature="TestFilterPaymentById()[pri:0, instance:es.payvision.tests.TestFilterPaymentAction@27c20538]" name="TestFilterPaymentById" duration-ms="158" started-at="2018-07-27T18:41:43Z" finished-at="2018-07-27T18:41:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFilterPaymentById -->
+        <test-method status="PASS" signature="TestFilterPaymentByWrongId()[pri:0, instance:es.payvision.tests.TestFilterPaymentAction@27c20538]" name="TestFilterPaymentByWrongId" duration-ms="140" started-at="2018-07-27T18:41:44Z" finished-at="2018-07-27T18:41:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFilterPaymentByWrongId -->
+        <test-method status="PASS" signature="TestFilterPaymentSuccessfull()[pri:0, instance:es.payvision.tests.TestFilterPaymentAction@27c20538]" name="TestFilterPaymentSuccessfull" duration-ms="143" started-at="2018-07-27T18:41:44Z" finished-at="2018-07-27T18:41:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFilterPaymentSuccessfull -->
+        <test-method status="PASS" signature="TestFilterPaymentUnsuccessfull()[pri:0, instance:es.payvision.tests.TestFilterPaymentAction@27c20538]" name="TestFilterPaymentUnsuccessfull" duration-ms="136" started-at="2018-07-27T18:41:44Z" finished-at="2018-07-27T18:41:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFilterPaymentUnsuccessfull -->
+      </class> <!-- es.payvision.tests.TestFilterPaymentAction -->
+    </test> <!-- filter payment -->
+    <test name="filter currency Code" duration-ms="614" started-at="2018-07-27T18:41:44Z" finished-at="2018-07-27T18:41:45Z">
+      <class name="es.payvision.tests.TestCurrencyCode">
+        <test-method status="PASS" signature="TestCurrencyCodeById()[pri:0, instance:es.payvision.tests.TestCurrencyCode@56ef9176]" name="TestCurrencyCodeById" duration-ms="175" started-at="2018-07-27T18:41:44Z" finished-at="2018-07-27T18:41:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCurrencyCodeById -->
+        <test-method status="PASS" signature="TestCurrencyCodeByWrongId()[pri:0, instance:es.payvision.tests.TestCurrencyCode@56ef9176]" name="TestCurrencyCodeByWrongId" duration-ms="148" started-at="2018-07-27T18:41:44Z" finished-at="2018-07-27T18:41:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCurrencyCodeByWrongId -->
+        <test-method status="PASS" signature="TestCurrencyCodeSuccessfull()[pri:0, instance:es.payvision.tests.TestCurrencyCode@56ef9176]" name="TestCurrencyCodeSuccessfull" duration-ms="133" started-at="2018-07-27T18:41:44Z" finished-at="2018-07-27T18:41:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCurrencyCodeSuccessfull -->
+        <test-method status="PASS" signature="TestCurrencyCodeUnsuccessfull()[pri:0, instance:es.payvision.tests.TestCurrencyCode@56ef9176]" name="TestCurrencyCodeUnsuccessfull" duration-ms="152" started-at="2018-07-27T18:41:44Z" finished-at="2018-07-27T18:41:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCurrencyCodeUnsuccessfull -->
+      </class> <!-- es.payvision.tests.TestCurrencyCode -->
+    </test> <!-- filter currency Code -->
+    <test name="filter Action and Currency" duration-ms="554" started-at="2018-07-27T18:41:45Z" finished-at="2018-07-27T18:41:45Z">
+      <class name="es.payvision.tests.TestFilterActionAndCurrency">
+        <test-method status="PASS" signature="TestFilterActionAndCurrencyById()[pri:0, instance:es.payvision.tests.TestFilterActionAndCurrency@3159c4b8]" name="TestFilterActionAndCurrencyById" duration-ms="153" started-at="2018-07-27T18:41:45Z" finished-at="2018-07-27T18:41:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFilterActionAndCurrencyById -->
+        <test-method status="PASS" signature="TestFilterActionAndCurrencyByWrongId()[pri:0, instance:es.payvision.tests.TestFilterActionAndCurrency@3159c4b8]" name="TestFilterActionAndCurrencyByWrongId" duration-ms="139" started-at="2018-07-27T18:41:45Z" finished-at="2018-07-27T18:41:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFilterActionAndCurrencyByWrongId -->
+        <test-method status="PASS" signature="TestFilterActionAndCurrencySuccessfull()[pri:0, instance:es.payvision.tests.TestFilterActionAndCurrency@3159c4b8]" name="TestFilterActionAndCurrencySuccessfull" duration-ms="127" started-at="2018-07-27T18:41:45Z" finished-at="2018-07-27T18:41:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFilterActionAndCurrencySuccessfull -->
+        <test-method status="PASS" signature="TestFilterActionAndCurrencyUnsuccessfull()[pri:0, instance:es.payvision.tests.TestFilterActionAndCurrency@3159c4b8]" name="TestFilterActionAndCurrencyUnsuccessfull" duration-ms="130" started-at="2018-07-27T18:41:45Z" finished-at="2018-07-27T18:41:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFilterActionAndCurrencyUnsuccessfull -->
+      </class> <!-- es.payvision.tests.TestFilterActionAndCurrency -->
+    </test> <!-- filter Action and Currency -->
+    <test name="filter Order by" duration-ms="801" started-at="2018-07-27T18:41:45Z" finished-at="2018-07-27T18:41:46Z">
+      <class name="es.payvision.tests.TestFilterOrderBy">
+        <test-method status="PASS" signature="TestFilterOrderByCompararion()[pri:0, instance:es.payvision.tests.TestFilterOrderBy@544fe44c]" name="TestFilterOrderByCompararion" duration-ms="272" started-at="2018-07-27T18:41:45Z" finished-at="2018-07-27T18:41:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFilterOrderByCompararion -->
+        <test-method status="FAIL" signature="TestFilterOrderByDateComparedById()[pri:0, instance:es.payvision.tests.TestFilterOrderBy@544fe44c]" name="TestFilterOrderByDateComparedById" duration-ms="275" started-at="2018-07-27T18:41:46Z" finished-at="2018-07-27T18:41:46Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.assertNotEquals(Assert.java:1157)
+at org.testng.Assert.assertNotEquals(Assert.java:1162)
+at es.payvision.tests.TestFilterOrderBy.TestFilterOrderByDateComparedById(TestFilterOrderBy.java:104)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFilterOrderByDateComparedById -->
+        <test-method status="PASS" signature="TestFilterOrderBySuccessfull()[pri:0, instance:es.payvision.tests.TestFilterOrderBy@544fe44c]" name="TestFilterOrderBySuccessfull" duration-ms="127" started-at="2018-07-27T18:41:46Z" finished-at="2018-07-27T18:41:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFilterOrderBySuccessfull -->
+        <test-method status="PASS" signature="TestFilterOrderByUnsuccessfull()[pri:0, instance:es.payvision.tests.TestFilterOrderBy@544fe44c]" name="TestFilterOrderByUnsuccessfull" duration-ms="122" started-at="2018-07-27T18:41:46Z" finished-at="2018-07-27T18:41:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFilterOrderByUnsuccessfull -->
+      </class> <!-- es.payvision.tests.TestFilterOrderBy -->
+    </test> <!-- filter Order by -->
+  </suite> <!-- REST API payvision challenge report -->
+</testng-results>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [REST API payvision challenge report]">
+  <test thread-count="5" name="filter Order by(failed)">
+    <classes>
+      <class name="es.payvision.tests.TestFilterOrderBy">
+        <methods>
+          <include name="TestFilterOrderByDateComparedById"/>
+        </methods>
+      </class> <!-- es.payvision.tests.TestFilterOrderBy -->
+    </classes>
+  </test> <!-- filter Order by(failed) -->
+</suite> <!-- Failed suite [REST API payvision challenge report] -->
